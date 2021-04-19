@@ -4,7 +4,7 @@
 # palindrome, but “music” is not a palindrome.
 
 pal = True
-num = input('Enter the number : ')
+num = input('Enter the String : ')
 for i in range((int((len(num)) / 2)) + 1):
     if num[i] == num[(len(num) - i - 1)]:
         continue
@@ -13,6 +13,6 @@ for i in range((int((len(num)) / 2)) + 1):
         break
 
 if pal:
-    print('Number ', num, ' is a palindrome')
+    print('String \'', num, '\' is a palindrome')
 else:
-    print('Number ', num, 'is not a palindrome')
+    print('String \'', num, '\'is not a palindrome')
